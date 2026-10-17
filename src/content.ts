@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/rozha-one/400.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,49 +17,65 @@ export const SITE: Site = {
   "lon": 77.1026134,
   "hours": [
     [
-      6,
-      23
+      [
+        6,
+        23
+      ]
     ],
     [
-      6,
-      23
+      [
+        6,
+        23
+      ]
     ],
     [
-      6,
-      23
+      [
+        6,
+        23
+      ]
     ],
     [
-      6,
-      23
+      [
+        6,
+        23
+      ]
     ],
     [
-      6,
-      23
+      [
+        6,
+        23
+      ]
     ],
     [
-      6,
-      23
+      [
+        6,
+        23
+      ]
     ],
     [
-      6,
-      23
+      [
+        6,
+        23
+      ]
     ]
   ],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
-    "weight": 800,
-    "upper": false,
-    "accent": "#15803d"
+    "dark": true,
+    "bg": "#120b04",
+    "bg2": "#1a140d",
+    "panel": "#201a13",
+    "ink": "#f6f0e7",
+    "ink2": "#c4beb5",
+    "ink3": "#89827a",
+    "line": "#2c2620",
+    "accent": "#ffae1f",
+    "onAccent": "#291c05",
+    "display": "Rozha One",
+    "weight": 400,
+    "upper": false
   },
+  "scene": "gada",
+  "align": "right",
   "hero": {
     "title": [
       {
@@ -76,13 +91,7 @@ export const SITE: Site = {
       "en": "4.9 on Google from 288 reviews. Members write about owner and coach Sandy, new equipment and free guidance for beginners with no hidden charges.",
       "hi": "गूगल पर 288 रिव्यू से 4.9। मेंबर मालिक और कोच सैंडी, नए उपकरणों और नए लोगों को बिना छिपे चार्ज के मुफ़्त गाइडेंस के बारे में लिखते हैं।"
     },
-    "fallback": "/img/p1.jpg",
-    "slides": [
-      "/img/p1.jpg",
-      "/img/p6.jpg",
-      "/img/p15.jpg",
-      "/img/p3.jpg"
-    ]
+    "fallback": "/img/p1.jpg"
   },
   "marquee": [
     "Strength",
@@ -341,5 +350,40 @@ export const SITE: Site = {
       "en": "Hi Chetak Fitness Gym, I'd like to enquire:",
       "hi": "नमस्ते चेतक फ़िटनेस जिम, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "Coach",
+        "hi": "कोच"
+      },
+      "title": {
+        "en": "Coached by a national-level wrestler.",
+        "hi": "नेशनल लेवल पहलवान से ट्रेनिंग।"
+      },
+      "quote": "Sandy was a National level wrestler so rest assured he knows what he is teaching."
+    },
+    {
+      "kicker": {
+        "en": "Beginners",
+        "hi": "शुरुआत"
+      },
+      "title": {
+        "en": "Basic training at no extra charge.",
+        "hi": "बेसिक ट्रेनिंग, बिना एक्स्ट्रा फ़ीस।"
+      },
+      "quote": "No charges for basic training and guidance and you can even ask even after intermediate level."
+    },
+    {
+      "kicker": {
+        "en": "Fees",
+        "hi": "फ़ीस"
+      },
+      "title": {
+        "en": "Cheaper than the ones nearby.",
+        "hi": "आसपास के जिमों से सस्ता।"
+      },
+      "quote": "It’s comparatively cheaper to all the nearby ones."
+    }
+  ]
 };
